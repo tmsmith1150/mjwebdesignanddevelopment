@@ -5,6 +5,7 @@ import SocialMediaArrow from '../assets/images/social-media-arrow.svg'
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg'
 import PText from './PText'
 import Hexagon from './Hexagon'
+// import LightSpin from './LightSpin'
 
 const HeroStyles = styled.div`
   .hero {
@@ -16,6 +17,13 @@ const HeroStyles = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
+  }
+  .light__spin {
+    width: cover;
+    margin-right: -60px;
+    margin-left: -60px;
+    margin-top: -200px;
+    height: 100vh;
   }
   .hero__heading {
     font-size: 2rem;
