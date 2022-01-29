@@ -77,7 +77,7 @@ export default function AboutSection2() {
         <div className="aboutSection__left">
           <SectionTitle subheading="" heading="CREATIVES" />
           <PText>
-            I can create a dynamic and interactive website for your to develop
+            I can create a dynamic and interactive website for you to develop
             impactful user experiences and convert visitors into clients.
           </PText>
           <div className="aboutSection__buttons">
