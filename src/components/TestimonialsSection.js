@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import { MdArrowForward, MdArrowBack } from 'react-icons/md'
 import { CSSTransition, SwitchTransition } from 'react-transition-group'
-import { MdArrowBack, MdArrowForward } from 'react-icons/md'
 import { FaQuoteLeft } from 'react-icons/fa'
-import SectionTitle from './SectionTitle'
 import PText from './PText'
+import SectionTitle from './SectionTitle'
 import testimonials from '../assets/data/testimonials'
 
 const TestimonialSectionStyles = styled.div`
@@ -20,7 +20,7 @@ const TestimonialSectionStyles = styled.div`
     width: 100%;
     height: fit-content;
     padding: 3rem;
-    background-color: @000);
+    background-color: var(--deep-dark);
     border-radius: 12px;
     margin-top: 5rem;
   }
@@ -51,7 +51,7 @@ const TestimonialSectionStyles = styled.div`
     .prev {
       margin: 0 0.5rem;
       width: fit-content;
-      background-color: @000;
+      background-color: var(--deep-dark);
       padding: 0.5rem 2rem;
       border-radius: 8px;
       cursor: pointer;
@@ -80,8 +80,8 @@ const TestimonialSectionStyles = styled.div`
     transition-property: transform, opacity;
   }
   .quotes {
-      width: 100px;
-      height: 100px
+    width: 100px;
+    height: 100px;
   }
 `
 
@@ -103,10 +103,11 @@ export default function TestimonialsSection() {
       setActiveIndex((oldIndex) => oldIndex - 1)
     }
   }
+
   return (
     <TestimonialSectionStyles>
       <div className="container">
-        <SectionTitle heading="" subheading="see what our clients say" />
+        <SectionTitle heading="" subheading="see what my clients say" />
         <FaQuoteLeft className="quotes" />
         <div className="testimonial__wrapper">
           <SwitchTransition component={null}>
@@ -117,13 +118,13 @@ export default function TestimonialsSection() {
                 </div>
                 <h2 className="testimonial__name">{activeSlide.name}</h2>
                 <p className="testimonial__title">
-                  {activeSlide.title},<br />
-                  {activeSlide.org}
+                  {activeSlide.title}, <br /> {activeSlide.org}
                 </p>
               </div>
             </CSSTransition>
           </SwitchTransition>
         </div>
+
         <div className="arrows">
           <div
             className="prev"

@@ -4,7 +4,8 @@ import Button from './Button'
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg'
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg'
 import PText from './PText'
-import Hexagon from './Hexagon'
+import HeroImg from '../assets/images/hero-img4.jpg'
+// import Hexagon from './Hexagon'
 // import LightSpin from './LightSpin'
 
 const HeroStyles = styled.div`
@@ -17,13 +18,6 @@ const HeroStyles = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
-  }
-  .light__spin {
-    width: cover;
-    margin-right: -60px;
-    margin-left: -60px;
-    margin-top: -200px;
-    height: 100vh;
   }
   .hero__heading {
     font-size: 2rem;
@@ -41,12 +35,17 @@ const HeroStyles = styled.div`
     }
   }
   .hero__img {
+    max-width: 900px;
     width: 100%;
-    background-size: cover;
-    height: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid var(--gray-1);
   }
   .hero__info {
     margin-top: -7rem;
+  }
+  .hero__intro {
+    color: var(--deep-dark);
   }
   .hero__social,
   .hero__scrollDown {
@@ -163,12 +162,12 @@ export default function HeroSection() {
             <span className="hero__name">Michelle Jordan</span>
           </h1>
           <div className="hero__img">
-            <Hexagon />
+            <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText>
+            <PText className="hero__intro">
               I am a freelance web designer and developer. I love to design and
-              make new web experiences for the people.
+              make new web experiences.
             </PText>
             <Button btnText="featured works" btnLink="/projects" />
           </div>

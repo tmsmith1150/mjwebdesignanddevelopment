@@ -3,9 +3,9 @@ import styled from 'styled-components'
 import Button from './Button'
 import PText from './PText'
 import SectionTitle from './SectionTitle'
-import AboutImg from '../assets/images/about-sec-img1.png'
+import Animate from './Animate'
 
-const AboutSectionStyles = styled.div`
+const AboutSection2Styles = styled.div`
   padding: 10rem 0;
   .container {
     display: flex;
@@ -16,13 +16,6 @@ const AboutSectionStyles = styled.div`
   .aboutSection__left,
   .aboutSection__right {
     flex: 1;
-  }
-  .aboutSection__left {
-    margin-top: -135px;
-    margin-left: 30px;
-  }
-  .aboutSection__right {
-    margin-top: 35px;
   }
   .section-title {
     text-align: left;
@@ -50,19 +43,16 @@ const AboutSectionStyles = styled.div`
     .container {
       flex-direction: column;
       text-align: center;
-      margin-top: 10px;
     }
     .aboutSection__left,
     .aboutSection__right {
       width: 100%;
     }
     .aboutSection__right {
-      margin-top: 4rem;
-      margin-left: 5rem;
+      margin-top: 3rem;
     }
     .section-title {
       text-align: center;
-      margin-top: 80px;
     }
     .para {
       margin: 0 auto;
@@ -80,18 +70,15 @@ const AboutSectionStyles = styled.div`
   }
 `
 
-export default function AboutSection() {
+export default function AboutSection2() {
   return (
-    <AboutSectionStyles>
+    <AboutSection2Styles>
       <div className="container">
         <div className="aboutSection__left">
-          <SectionTitle
-            subheading="Let me introduce myself"
-            heading="About Me"
-          />
+          <SectionTitle subheading="" heading="CREATIVES" />
           <PText>
-            I am a freelance web designer and developer. I love to design and
-            make new web experiences for the people.
+            I can create a dynamic and interactive website for your to develop
+            impactful user experiences and convert visitors into clients.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />
@@ -99,9 +86,9 @@ export default function AboutSection() {
           </div>
         </div>
         <div className="aboutSection__right">
-          <img className="aboutImg" src={AboutImg} alt="Img" />
+          <Animate className="aboutImg" />
         </div>
       </div>
-    </AboutSectionStyles>
+    </AboutSection2Styles>
   )
 }

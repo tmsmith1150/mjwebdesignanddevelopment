@@ -4,13 +4,15 @@ import UTrackerImg from '../images/utracker.jpg'
 import GreenCtgImg from '../images/greenctg.jpg'
 import CoinTrackerImg from '../images/cointracker.jpg'
 import CavinImg from '../images/cavinimg.jpg'
+import TwvwImg from '../images/twvw.png'
 
 const projects = [
   {
     id: uuidv4(),
     name: 'TWVW',
-    desc: 'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+    desc: '•	Clients JJ and Melissa Tindall needed a website that captured their beautiful rental properties, scenic surroundings and the exhilarating ATV/UTV trail systems of West Virginia. This application allows users to view rooms, check availability, book reservations and make payment for their rental. Technologies used in this application include Wordpress, HTML, CSS, Elementor ',
+    img: TwvwImg,
+    url: 'https://thewestvirginiaway.com/',
   },
   {
     id: uuidv4(),

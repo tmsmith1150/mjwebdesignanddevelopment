@@ -11,7 +11,6 @@ const StyledAnimate = styled.div`
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000;
   }
   .h1 {
     margin: 0;

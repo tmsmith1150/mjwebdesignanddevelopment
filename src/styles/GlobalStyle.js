@@ -5,10 +5,9 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #000;
   }
   :root{
-    --dark-bg: #262626;
+    --dark-bg: #242424;
     --gray-1: #BCB4B4;
     --deep-dark: #1E1E1E;
     --gray-2: #363636;
@@ -18,7 +17,7 @@ const GlobalStyles = createGlobalStyle`
   html{
     font-size: 10px;
     font-family: 'Roboto Mono';
-    // background-color: var(--dark-bg);
+    background-color: var(--dark-bg);
   }
   ul,li{
     list-style: none;

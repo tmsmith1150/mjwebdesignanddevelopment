@@ -40,6 +40,7 @@ export default function ProjectItem({
   img = ProjectImg,
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  url = 'Visit Site',
 }) {
   return (
     <ProjectItemStyles>
@@ -51,6 +52,9 @@ export default function ProjectItem({
           <h3 className="projectItem__title">{title}</h3>
         </Link>
         <p className="projectItem__desc">{desc}</p>
+        <Link>
+          <p className="projectItem__url">{url}</p>
+        </Link>
       </div>
     </ProjectItemStyles>
   )
