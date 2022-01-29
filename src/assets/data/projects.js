@@ -10,7 +10,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'TWVW',
-    desc: '•	Clients JJ and Melissa Tindall needed a website that captured their beautiful rental properties, scenic surroundings and the exhilarating ATV/UTV trail systems of West Virginia. This application allows users to view rooms, check availability, book reservations and make payment for their rental. Technologies used in this application include Wordpress, HTML, CSS, Elementor ',
+    desc: 'Clients JJ and Melissa Tindall needed a website that captured their beautiful rental properties, scenic surroundings and the exhilarating ATV/UTV trail systems of West Virginia. This application allows users to view rooms, check availability, book reservations and make payment for their rental. Technologies used in this application include Wordpress, HTML, CSS, Elementor ',
     img: TwvwImg,
     url: 'https://thewestvirginiaway.com/',
   },
