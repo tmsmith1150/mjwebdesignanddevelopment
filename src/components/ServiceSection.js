@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdDesktopMac, MdCode, MdPhonelinkSetup } from 'react-icons/md'
 import styled from 'styled-components'
+import { DiAws } from 'react-icons/di'
 import SectionTitle from './SectionTitle'
 import ServicesSectionItem from './ServicesSectionItem'
 import BrandingImg from '../assets/images/branding.png'
@@ -39,17 +40,17 @@ export default function ServicesSection() {
           <ServicesSectionItem
             icon={<MdDesktopMac />}
             title="web design"
-            desc="I can help you increase customer aquisition and retention by optimizing develop time and cost."
+            desc="Using UI/UX design best practices, I can help you increase customer aquisition and retention by optimizing development time and cost."
           />
           <ServicesSectionItem
             icon={<MdCode />}
             title="web dev"
-            desc="I also develop easy to manage, fully responsive websites with high performance and blazing fast speed."
+            desc="From ideation to production, I develop easy to manage and fully responsive websites that are high performing with blazing fast speeds."
           />
           <ServicesSectionItem
-            icon={<MdPhonelinkSetup />}
-            title="app Dev"
-            desc="I develop mobile applications. I create mobile apps with eye catching ui. "
+            icon={<DiAws />}
+            title="deploy"
+            desc="I offer deployment hosting and maintenance services. I will stay focused on your tech story so you can stay focused on your clients and growing your business. "
           />
         </div>
       </div>
