@@ -44,7 +44,7 @@ export default function ServicesSection() {
           <ServicesSectionItem
             icon={<MdCode />}
             title="web dev"
-            desc="I also develop the websites. I create high performance website with blazing fast speed."
+            desc="I also develop easy to manage, fully responsive websites with high performance and blazing fast speed."
           />
           <ServicesSectionItem
             icon={<MdPhonelinkSetup />}
