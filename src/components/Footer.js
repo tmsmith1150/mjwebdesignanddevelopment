@@ -21,13 +21,18 @@ const FooterStyle = styled.div`
     font-size: 3.5rem;
     margin-bottom: 1rem;
   }
+  .container2 {
+    display: flex;
+    justify-content: center;
+  }
   .copyright {
     background-color: #000;
-    text-align: left;
+    text-align: center;
     padding: 1rem 0;
     margin-top: 5rem;
     .para {
-      margin-left: 0;
+      margin-left: 250px;
+      min-width: 800px;
     }
   }
   @media only screen and (max-width: 768px) {
@@ -122,11 +127,11 @@ export default function Footer() {
         </div>
       </div>
       <div className="copyright">
-        <div className="container">
+        <div className="container2">
           <PText>
             © 2022 | Designed By{' '}
             <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              Michelle Jordan
+              Michelle Jordan | React Application
             </a>{' '}
           </PText>
         </div>
