@@ -24,6 +24,7 @@ const FooterStyle = styled.div`
   .container2 {
     display: flex;
     justify-content: center;
+    font-size: 20px;
   }
   .copyright {
     background-color: #000;
@@ -50,6 +51,7 @@ const FooterStyle = styled.div`
       .container {
         div {
           margin-top: 0;
+          font-size: 20px;
         }
       }
     }
@@ -62,7 +64,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer__col1">
           <h1 className="footer__col1__title">MICHELLE JORDAN</h1>
-          <PText>A freelance web designer and developer.</PText>
+          <PText>MoJo Web Design and Development</PText>
         </div>
         <div className="footer__col2">
           <FooterCol
@@ -128,12 +130,16 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container2">
-          <PText>
+          <p>
             © 2022 | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.mojowebdesignanddevelopment.com/"
+            >
               Michelle Jordan | React Application
             </a>{' '}
-          </PText>
+          </p>
         </div>
       </div>
     </FooterStyle>

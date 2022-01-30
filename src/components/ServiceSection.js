@@ -40,7 +40,7 @@ export default function ServicesSection() {
           <ServicesSectionItem
             icon={<MdDesktopMac />}
             title="web design"
-            desc="Using UI/UX design best practices, I can help you increase customer aquisition and retention by optimizing development time and cost."
+            desc="Using UI/UX design best practices, I can help you increase customer aquisition and retention in addition to optimizing development time and cost."
           />
           <ServicesSectionItem
             icon={<MdCode />}

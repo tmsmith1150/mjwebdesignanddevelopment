@@ -90,8 +90,13 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I am a freelance web designer and developer. I love to design and
-            make new web experiences for the people.
+            I am a freelance web designer and developer. I love utilizing my
+            extensive background in design and passion for technology to bring a
+            vision to life through coding. My skills include React, Javascript,
+            HTML, CSS/SASS, Node.js, Heroku/Git/AWS Deployment, JSON API’s,
+            Jquery, MySql & MongoDB, Bootstrap/Tailwind/Flexbox,
+            ESLint/Prettier, MVC, Wordpress, Figma, Adobe Illustrator, Adobe
+            Photoshop.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />

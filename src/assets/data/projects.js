@@ -1,30 +1,29 @@
 import { v4 as uuidv4 } from 'uuid'
-import ProjectImg from '../images/projectImg.png'
-import UTrackerImg from '../images/utracker.jpg'
-import GreenCtgImg from '../images/greenctg.jpg'
-import CoinTrackerImg from '../images/cointracker.jpg'
 import CavinImg from '../images/cavinimg.jpg'
 import TwvwImg from '../images/twvw.png'
+import MernCartImg from '../images/mern-cartImg.png'
+import CBOImgImg from '../images/cold-beer-openImg.png'
+import BudgetTrackerImg from '../images/budget-trackerImg.png'
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'TWVW',
-    desc: 'Clients JJ and Melissa Tindall needed a website that captured their beautiful rental properties, scenic surroundings and the exhilarating ATV/UTV trail systems of West Virginia. This application allows users to view rooms, check availability, book reservations and make payment for their rental. Technologies used in this application include Wordpress, HTML, CSS, Elementor ',
+    name: 'The West Virginia Way',
+    desc: 'Clients JJ and Melissa Tindall needed a website that captured their beautiful rental properties, scenic surroundings and the exhilarating ATV/UTV trail systems of West Virginia. This application allows users to view rooms, check availability, book reservations and make payment for their rental. Technologies used in this application include Wordpress, HTML, CSS, Elementor',
     img: TwvwImg,
     url: 'https://thewestvirginiaway.com/',
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
-    desc: 'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+    name: 'Cold Beer Open',
+    desc: 'Clients Terry and Earl host the Cold Beer Open annual golf tournament. With nearly 100 participates each year they needed a website rich in tradition and energy while modernizing the processes and communications. •	Technologies used in this application are React.js, Reactstrap, MySql, Passport, Express, Axios, Animate.css',
+    img: CBOImgImg,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
-    desc: 'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+    name: 'Full Stack eCommerce Cart',
+    desc: 'This application incudes setting up the backend API to styling components using pure css to create a fully responsive eCommerce Cart. Technologies used in this application are React.js, Redux, Node, MongoDB',
+    img: MernCartImg,
   },
   {
     id: uuidv4(),
@@ -34,9 +33,9 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
-    desc: 'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
+    name: 'Budget Tracker',
+    desc: 'A web application designed to help users keep track of all finances. It allows users to create their own categories for saving or spending to keep their financial future on track. Technologies used in this application are Node.js, Express, Handlebars, MySql, Sequelize, Passport, ESLint, TravisCI',
+    img: BudgetTrackerImg,
   },
 ]
 
