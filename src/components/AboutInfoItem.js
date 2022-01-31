@@ -8,7 +8,7 @@ const AboutItemStyles = styled.div`
   justify-content: flex-start;
   position: relative;
   /* gap: 5rem; */
-  margin-top: 3rem;
+  margin-top: 10rem;
   .title {
     font-size: 2.4rem;
   }
@@ -30,16 +30,19 @@ const AboutItemStyles = styled.div`
     .items {
       position: initial;
       gap: 1rem;
+      margin-top: -1rem;
     }
     .title {
       font-size: 2rem;
+      margin-bottom: 2rem;
     }
   }
 `
 
 export default function AboutInfoItem({
-  title = 'Title',
+  title = '',
   items = ['HTML', 'CSS'],
+  desc = '',
 }) {
   return (
     <AboutItemStyles>
@@ -48,6 +51,7 @@ export default function AboutInfoItem({
         {items.map((item, index) => (
           <div className="item" key={index}>
             <PText>{item}</PText>
+            <PText>{desc}</PText>
           </div>
         ))}
       </div>

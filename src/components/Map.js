@@ -52,7 +52,7 @@ export default function Map() {
           <PText>Charlotte, NC</PText>
           <a
             className="map__card__link"
-            href="https://www.google.com/maps/place/GEC+More,+Chittagong/@22.3590818,91.8195583,17z/data=!3m1!4b1!4m5!3m4!1s0x30acd89aaa8239cd:0x6e65fa00001dd59f!8m2!3d22.3590715!4d91.8215486"
+            href="https://www.google.com/maps/place/Charlotte,+NC/@35.2030728,-80.9799136,11z/data=!3m1!4b1!4m5!3m4!1s0x88541fc4fc381a81:0x884650e6bf43d164!8m2!3d35.2270869!4d-80.8431267"
             target="_blank"
             rel="noreferrer"
           >

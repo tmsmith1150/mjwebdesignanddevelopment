@@ -42,6 +42,10 @@ const AboutPageStyles = styled.div`
   .right {
     img {
       border: 2px solid var(--gray-1);
+      width: 300px;
+      height: 300px;
+      filter: brightness(70%);
+      margin-left: 60px;
     }
   }
   .about__info__items {
@@ -59,6 +63,9 @@ const AboutPageStyles = styled.div`
     .top-section {
       flex-direction: column;
       gap: 5rem;
+    }
+    .about__info__item {
+      max-width: 300px;
     }
     .about__subheading {
       font-size: 1.8rem;
@@ -82,28 +89,24 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Michelle Jordan</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A freelance web developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from Charlotte, NC. A place of beauty and nature. Since
-                  my childhood, I love art and design. I always try to design
-                  stuff with my unique point of view. I also love to create
-                  things that can be usefull to others.
+                  Thinking outside the box, I am passionate about creating
+                  dynamic and impactful websites to enhance user experiences. I
+                  strive to understand your vision and help you overcome the
+                  challenges you face.
                   <br /> <br />
-                  I have 20 years experience in the field of Design and I
-                  started coding 2 years ago. Coding is also an art for me. I
-                  love it and now I have the opportunity to design along with
-                  the coding. I find it really interesting and I enjoy the
-                  process a lot.
+                  If your website doesn’t reflect your true goals, mission
+                  statement, and strategy, the first impression people will get
+                  from it won’t match your model.
                   <br />
-                  <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
+                  <br />I can help you perfect your image and brand by creating
+                  your website using the latest technology and development
+                  practices to build your online presence.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              {/* <Button btnText="Download CV" btnLink="#" /> */}
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
@@ -114,12 +117,12 @@ export default function About() {
               <h1 className="about__info__heading">Education</h1>
 
               <AboutInfoItem
-                title="College"
                 items={['American Business and Fashion Institute']}
+                desc={['Associate Degree: Interior Design']}
               />
               <AboutInfoItem
-                title="Varsity"
                 items={['University Of North Carolina']}
+                desc={['Certificate: Full Stack Web Development']}
               />
             </div>
             <div className="about__info__item">
@@ -127,7 +130,7 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS/SASS', 'JavaScript', 'REACT']}
+                items={['React', 'HTML', 'CSS/SASS', 'JavaScript', 'Wordpress']}
               />
               <AboutInfoItem
                 title="BackEnd"

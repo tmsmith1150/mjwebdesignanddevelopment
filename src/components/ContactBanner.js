@@ -36,7 +36,7 @@ export default function ContactBanner() {
           <Button
             className="bkgrd-color-correct"
             btnText="Contact Now"
-            btnLinks="/"
+            btnLinks="/contact"
           />
         </div>
       </div>

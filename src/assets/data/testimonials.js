@@ -4,14 +4,14 @@ const testimonials = [
     name: 'Terry Smith',
     title: 'CEO',
     org: 'Southeast Performance',
-    desc: 'Great commitment and communcication. Produces quality work and I love the unique point of view of designing.',
+    desc: 'Great commitment and communication. Produces quality work and I love the unique point of view of designing.',
   },
   {
     id: 2,
     name: 'Cynthia Kirby',
     title: 'CFO',
     org: 'Centerline Precision',
-    desc: 'Really amazing communication skills. Always understand what I am trying to achieve. Also, the work is really amazing. Does really high-quality work.',
+    desc: 'Really amazing communication skills. Always understands what I am trying to achieve. Also, the work is really amazing. Does really high-quality work.',
   },
   {
     id: 3,

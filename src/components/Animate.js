@@ -204,7 +204,6 @@ export default function Animate() {
             <span className="letters">C</span>
             <span className="letters">S</span>
             <span className="letters">S</span>
-            <span className="letters">3</span>
           </h4>
         </div>
       </div>

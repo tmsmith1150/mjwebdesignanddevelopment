@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import Button from './Button'
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg'
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg'
-import PText from './PText'
 import HeroImg from '../assets/images/hero-img4.jpg'
 // import Hexagon from './Hexagon'
 // import LightSpin from './LightSpin'
@@ -43,6 +42,16 @@ const HeroStyles = styled.div`
   }
   .hero__info {
     margin-top: -13rem;
+  }
+  .work {
+    color: #000;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    @media only screen and (max-width: 768px) {
+      font-size: 1.4rem;
+    }
   }
   .hero__social,
   .hero__scrollDown {
@@ -87,7 +96,7 @@ const HeroStyles = styled.div`
         a {
           display: inline-block;
           font-size: 1.6rem;
-          transform: rotate(-90deg);
+          transform: rotate(90deg);
           letter-spacing: 5px;
           margin-bottom: 2rem;
         }
@@ -162,10 +171,10 @@ export default function HeroSection() {
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText className="hero__intro">
+            <p className="work">
               I am a freelance web designer and developer. I love to design and
               make new web experiences.
-            </PText>
+            </p>
             <Button btnText="featured works" btnLink="/projects" />
           </div>
           <div className="hero__social">
