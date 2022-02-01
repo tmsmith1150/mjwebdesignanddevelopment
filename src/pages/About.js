@@ -101,7 +101,7 @@ export default function About() {
                   statement, and strategy, the first impression people will get
                   from it won’t match your model.
                   <br />
-                  <br />I can help you perfect your image and brand by creating
+                  <br />I can help you define your image and brand by creating
                   your website using the latest technology and development
                   practices to build your online presence.
                 </PText>
