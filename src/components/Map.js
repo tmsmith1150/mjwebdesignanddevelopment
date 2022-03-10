@@ -48,7 +48,7 @@ export default function Map() {
     <MapStyles>
       <div className="container">
         <div className="map__card">
-          <h3 className="map__card__heading">Here is me</h3>
+          <h className="map__card__heading" />
           <PText>Charlotte, NC</PText>
           <a
             className="map__card__link"

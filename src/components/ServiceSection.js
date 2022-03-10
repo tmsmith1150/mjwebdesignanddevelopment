@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import { DiAws } from 'react-icons/di'
 import SectionTitle from './SectionTitle'
 import ServicesSectionItem from './ServicesSectionItem'
-import BrandingImg from '../assets/images/branding.png'
 
 const ServicesItemsStyles = styled.div`
   padding: 10rem 0;

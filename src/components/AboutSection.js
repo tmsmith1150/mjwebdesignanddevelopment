@@ -50,7 +50,7 @@ const AboutSectionStyles = styled.div`
     .container {
       flex-direction: column;
       text-align: center;
-      margin-top: 10px;
+      margin-top: 50px;
     }
     .aboutSection__left,
     .aboutSection__right {
