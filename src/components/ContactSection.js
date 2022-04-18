@@ -60,7 +60,7 @@ export default function ContactSection() {
         <div className="contactSection__wrapper">
           <div className="left">
             <ContactInfoItem icon={<MdLocalPhone />} text="+704-674-6532" />
-            <ContactInfoItem text="Charlotte, NC" />
+            <ContactInfoItem text="Gastonia, NC" />
           </div>
           <div className="right">
             <FooterCol
