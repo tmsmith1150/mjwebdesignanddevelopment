@@ -22,12 +22,21 @@ const ProjectItemStyles = styled.div`
     border-radius: 12px;
   }
   .projectItem__title {
-    font-size: 2.2rem;
+    font-size: 28px;
   }
   .projectItem__desc {
-    font-size: 1.6rem;
+    font-size: 15px;
     font-family: 'RobotoMono Regular';
     margin-top: 1rem;
+  }
+  .link {
+    line-height: 20px;
+    text-decoration: underline;
+    color: #02c2f7;
+    font-size: 15px;
+  }
+  .link:hover {
+    color: #02f54b;
   }
   @media only screen and (max-width: 768px) {
     .projectItem__img {
