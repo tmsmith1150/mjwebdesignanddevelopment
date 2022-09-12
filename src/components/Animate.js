@@ -144,7 +144,7 @@ const StyledAnimate = styled.div`
     100% {
       color: #fff;
       filter: blur(2px);
-      text-shadow: 0 0 10px #00b3ff;
+      text-shadow: 0 0 10px #c7c9c7;
       0 0 20px #00b3ff;
       0 0 40px #00b3ff;
       0 0 80px #00b3ff;
