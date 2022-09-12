@@ -1,9 +1,9 @@
-import React from 'react'
-import styled from 'styled-components'
-import Button from './Button'
-import PText from './PText'
-import SectionTitle from './SectionTitle'
-import Animate from './Animate'
+import React from 'react';
+import styled from 'styled-components';
+import Button from './Button';
+import PText from './PText';
+import SectionTitle from './SectionTitle';
+import Animate from './Animate';
 
 const AboutSection2Styles = styled.div`
   padding: 10rem 0;
@@ -68,7 +68,7 @@ const AboutSection2Styles = styled.div`
       }
     }
   }
-`
+`;
 
 export default function AboutSection2() {
   return (
@@ -90,5 +90,5 @@ export default function AboutSection2() {
         </div>
       </div>
     </AboutSection2Styles>
-  )
+  );
 }

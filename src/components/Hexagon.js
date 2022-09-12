@@ -1,5 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const StyledHexagon = styled.div`
   .body {
@@ -63,7 +63,7 @@ const StyledHexagon = styled.div`
     background-color: rgba(255, 255, 255, 0.02);
     z-index: 1000;
   }
-`
+`;
 
 export default function Hexagon() {
   return (
@@ -199,5 +199,5 @@ export default function Hexagon() {
         </div>
       </div>
     </StyledHexagon>
-  )
+  );
 }

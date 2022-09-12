@@ -1,7 +1,7 @@
-import React from 'react'
-import { MdDesktopMac } from 'react-icons/md'
-import styled from 'styled-components'
-import PText from './PText'
+import React from 'react';
+import { MdDesktopMac } from 'react-icons/md';
+import styled from 'styled-components';
+import PText from './PText';
 
 const ItemStyles = styled.div`
   text-align: center;
@@ -17,7 +17,7 @@ const ItemStyles = styled.div`
   .para {
     margin-top: 2rem;
   }
-`
+`;
 
 export default function ServicesSectionItem({
   icon = <MdDesktopMac />,
@@ -30,5 +30,5 @@ export default function ServicesSectionItem({
       <div className="servicesItem__title">{title}</div>
       <PText>{desc}</PText>
     </ItemStyles>
-  )
+  );
 }

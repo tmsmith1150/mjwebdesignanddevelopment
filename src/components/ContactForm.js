@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import styled from 'styled-components'
+import React, { useState } from 'react';
+import styled from 'styled-components';
 
 const FormStyle = styled.form`
   width: 100%;
@@ -37,12 +37,12 @@ const FormStyle = styled.form`
     border-radius: 8px;
     cursor: pointer;
   }
-`
+`;
 
 export default function ContactForm() {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState('')
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
   return (
     <>
       <FormStyle>
@@ -85,5 +85,5 @@ export default function ContactForm() {
         <button type="submit">Send</button>
       </FormStyle>
     </>
-  )
+  );
 }

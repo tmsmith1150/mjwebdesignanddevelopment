@@ -1,9 +1,9 @@
-import React from 'react'
-import styled from 'styled-components'
-import Button from './Button'
-import SocialMediaArrow from '../assets/images/social-media-arrow.svg'
-import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg'
-import HeroImg from '../assets/images/hero-img4.jpg'
+import React from 'react';
+import styled from 'styled-components';
+import Button from './Button';
+import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
+import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
+import HeroImg from '../assets/images/hero-img4.jpg';
 // import Hexagon from './Hexagon'
 // import LightSpin from './LightSpin'
 
@@ -157,7 +157,7 @@ const HeroStyles = styled.div`
       }
     }
   }
-`
+`;
 
 export default function HeroSection() {
   return (
@@ -222,5 +222,5 @@ export default function HeroSection() {
         </div>
       </div>
     </HeroStyles>
-  )
+  );
 }

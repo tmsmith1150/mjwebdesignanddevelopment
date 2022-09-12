@@ -1,9 +1,9 @@
-import { v4 as uuidv4 } from 'uuid'
-import CavinImg from '../images/cavinimg.jpg'
-import TwvwImg from '../images/twvw.png'
-import MernCartImg from '../images/mern-cartImg.png'
-import CBOImgImg from '../images/cold-beer-openImg.png'
-import BudgetTrackerImg from '../images/budget-trackerImg.png'
+import { v4 as uuidv4 } from 'uuid';
+import CavinImg from '../images/cavinimg.jpg';
+import TwvwImg from '../images/twvw.png';
+import MernCartImg from '../images/mern-cartImg.png';
+import CBOImgImg from '../images/cold-beer-openImg.png';
+import BudgetTrackerImg from '../images/budget-trackerImg.png';
 
 const projects = [
   {
@@ -41,6 +41,6 @@ const projects = [
     img: BudgetTrackerImg,
     deployedLink: 'https://budget-tracker-project.herokuapp.com/overview',
   },
-]
+];
 
-export default projects
+export default projects;

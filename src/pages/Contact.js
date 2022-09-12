@@ -1,6 +1,6 @@
-import React from 'react'
-import ContactSection from '../components/ContactSection'
-import Map from '../components/Map'
+import React from 'react';
+import ContactSection from '../components/ContactSection';
+import Map from '../components/Map';
 
 export default function Contact() {
   return (
@@ -8,5 +8,5 @@ export default function Contact() {
       <ContactSection />
       <Map />
     </>
-  )
+  );
 }

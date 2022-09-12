@@ -1,7 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
-import Button from './Button'
-import PText from './PText'
+import React from 'react';
+import styled from 'styled-components';
+import Button from './Button';
+import PText from './PText';
 
 const ContactBannerStyles = styled.div`
   padding: 10rem 0;
@@ -24,7 +24,7 @@ const ContactBannerStyles = styled.div`
       font-size: 2.8rem;
     }
   }
-`
+`;
 
 export default function ContactBanner() {
   return (
@@ -41,5 +41,5 @@ export default function ContactBanner() {
         </div>
       </div>
     </ContactBannerStyles>
-  )
+  );
 }

@@ -1,6 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import styled from 'styled-components'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 const ColStyle = styled.div`
   .heading {
@@ -13,7 +13,7 @@ const ColStyle = styled.div`
   a {
     font-size: 1.8rem;
   }
-`
+`;
 
 export default function FooterCol({
   heading = 'Col Heading',
@@ -47,5 +47,5 @@ export default function FooterCol({
         ))}
       </ul>
     </ColStyle>
-  )
+  );
 }

@@ -1,14 +1,14 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import SwiperCore, { Navigation } from 'swiper'
-import ProjectItem from './ProjectItem'
-import SectionTitle from './SectionTitle'
-import 'swiper/swiper-bundle.min.css'
-import projects from '../assets/data/projects'
+import React from 'react';
+import styled from 'styled-components';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Navigation } from 'swiper';
+import ProjectItem from './ProjectItem';
+import SectionTitle from './SectionTitle';
+import 'swiper/swiper-bundle.min.css';
+import projects from '../assets/data/projects';
 
 // install Swiper modules
-SwiperCore.use([Navigation])
+SwiperCore.use([Navigation]);
 
 const ProjectSectionStyle = styled.div`
   padding: 10rem 0;
@@ -54,7 +54,7 @@ const ProjectSectionStyle = styled.div`
       }
     }
   }
-`
+`;
 
 export default function ProjectsSection() {
   // console.log(projects);
@@ -83,7 +83,7 @@ export default function ProjectsSection() {
             }}
           >
             {projects.map((project, index) => {
-              if (index >= 5) return
+              if (index >= 5) return;
               return (
                 <SwiperSlide key={project.id}>
                   <ProjectItem
@@ -93,11 +93,11 @@ export default function ProjectsSection() {
                     deployedLink={project.deployedLink}
                   />
                 </SwiperSlide>
-              )
+              );
             })}
           </Swiper>
         </div>
       </div>
     </ProjectSectionStyle>
-  )
+  );
 }

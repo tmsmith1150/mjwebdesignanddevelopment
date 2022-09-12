@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
-import styled from 'styled-components'
-import { MdClose, MdMenu } from 'react-icons/md'
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import styled from 'styled-components';
+import { MdClose, MdMenu } from 'react-icons/md';
 
 const NavStyles = styled.nav`
   position: fixed;
@@ -85,10 +85,10 @@ const NavStyles = styled.nav`
       }
     }
   }
-`
+`;
 
 export default function NavMenu() {
-  const [showNav, setShowNav] = useState(false)
+  const [showNav, setShowNav] = useState(false);
   return (
     <NavStyles>
       <div
@@ -158,5 +158,5 @@ export default function NavMenu() {
         </li>
       </ul>
     </NavStyles>
-  )
+  );
 }

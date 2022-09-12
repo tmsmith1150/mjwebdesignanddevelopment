@@ -1,7 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
-import MapImg from '../assets/images/map.png'
-import PText from './PText'
+import React from 'react';
+import styled from 'styled-components';
+import MapImg from '../assets/images/map.png';
+import PText from './PText';
 
 const MapStyles = styled.div`
   background: url(${MapImg}) no-repeat;
@@ -41,7 +41,7 @@ const MapStyles = styled.div`
       right: auto;
     }
   }
-`
+`;
 
 export default function Map() {
   return (
@@ -62,5 +62,5 @@ export default function Map() {
       </div>
       {/* <img src={MapImg} alt="Map" /> */}
     </MapStyles>
-  )
+  );
 }

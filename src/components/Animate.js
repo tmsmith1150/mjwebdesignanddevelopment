@@ -1,5 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const StyledAnimate = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Bad+Script');
@@ -160,7 +160,7 @@ const StyledAnimate = styled.div`
       text-shadow: 0 0 10px none;
     }
   }
-`
+`;
 
 export default function Animate() {
   return (
@@ -208,5 +208,5 @@ export default function Animate() {
         </div>
       </div>
     </StyledAnimate>
-  )
+  );
 }

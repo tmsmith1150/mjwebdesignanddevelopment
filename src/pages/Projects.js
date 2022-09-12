@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import styled from 'styled-components'
-import { MdSearch } from 'react-icons/md'
-import SectionTitle from '../components/SectionTitle'
-import ProjectsInfo from '../assets/data/projects'
-import ProjectItem from '../components/ProjectItem'
+import React, { useEffect, useState } from 'react';
+import styled from 'styled-components';
+import { MdSearch } from 'react-icons/md';
+import SectionTitle from '../components/SectionTitle';
+import ProjectsInfo from '../assets/data/projects';
+import ProjectItem from '../components/ProjectItem';
 
 const ProjectStyle = styled.div`
   padding: 10rem 0;
@@ -42,26 +42,26 @@ const ProjectStyle = styled.div`
       width: 100%;
     }
   }
-`
+`;
 
 export default function Projects() {
-  const [searchText, setSearchText] = useState('')
-  const [projectsData, setProjectsData] = useState(ProjectsInfo)
+  const [searchText, setSearchText] = useState('');
+  const [projectsData, setProjectsData] = useState(ProjectsInfo);
   useEffect(() => {
-    if (searchText === '') return
+    if (searchText === '') return;
     setProjectsData(() =>
       ProjectsInfo.filter((item) =>
         item.name.toLowerCase().match(searchText.toLowerCase())
       )
-    )
-  }, [searchText])
+    );
+  }, [searchText]);
   const handleChange = (e) => {
-    e.preventDefault()
-    setSearchText(e.target.value)
+    e.preventDefault();
+    setSearchText(e.target.value);
     if (!e.target.value.length > 0) {
-      setProjectsData(ProjectsInfo)
+      setProjectsData(ProjectsInfo);
     }
-  }
+  };
   return (
     <>
       <ProjectStyle>
@@ -96,5 +96,5 @@ export default function Projects() {
         </div>
       </ProjectStyle>
     </>
-  )
+  );
 }

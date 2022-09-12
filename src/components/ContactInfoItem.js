@@ -1,7 +1,7 @@
-import React from 'react'
-import { MdPlace } from 'react-icons/md'
-import styled from 'styled-components'
-import PText from './PText'
+import React from 'react';
+import { MdPlace } from 'react-icons/md';
+import styled from 'styled-components';
+import PText from './PText';
 
 const ItemStyles = styled.div`
   padding: 2rem;
@@ -23,7 +23,7 @@ const ItemStyles = styled.div`
   svg {
     width: 3.5rem;
   }
-`
+`;
 
 export default function ContactInfoItem({
   icon = <MdPlace />,
@@ -36,5 +36,5 @@ export default function ContactInfoItem({
         <PText>{text}</PText>
       </div>
     </ItemStyles>
-  )
+  );
 }

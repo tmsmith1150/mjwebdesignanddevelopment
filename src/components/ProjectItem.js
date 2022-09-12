@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import styled from 'styled-components'
-import ProjectImg from '../assets/images/projectImg.png'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+import ProjectImg from '../assets/images/projectImg.png';
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {
@@ -43,7 +43,7 @@ const ProjectItemStyles = styled.div`
       height: 350px;
     }
   }
-`
+`;
 
 export default function ProjectItem({
   img = ProjectImg,
@@ -71,5 +71,5 @@ export default function ProjectItem({
         </a>
       </div>
     </ProjectItemStyles>
-  )
+  );
 }

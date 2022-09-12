@@ -20,5 +20,5 @@ const testimonials = [
     org: 'The West Virginia Way LLC',
     desc: 'Great communication and commitment to delivering expectations with amazing design aspects. Easily translates technical topics to non-technical individuals.',
   },
-]
-export default testimonials
+];
+export default testimonials;

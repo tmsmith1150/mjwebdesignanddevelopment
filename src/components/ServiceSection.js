@@ -1,9 +1,9 @@
-import React from 'react'
-import { MdDesktopMac, MdCode, MdPhonelinkSetup } from 'react-icons/md'
-import styled from 'styled-components'
-import { DiAws } from 'react-icons/di'
-import SectionTitle from './SectionTitle'
-import ServicesSectionItem from './ServicesSectionItem'
+import React from 'react';
+import { MdDesktopMac, MdCode, MdPhonelinkSetup } from 'react-icons/md';
+import styled from 'styled-components';
+import { DiAws } from 'react-icons/di';
+import SectionTitle from './SectionTitle';
+import ServicesSectionItem from './ServicesSectionItem';
 
 const ServicesItemsStyles = styled.div`
   padding: 10rem 0;
@@ -28,7 +28,7 @@ const ServicesItemsStyles = styled.div`
       margin-top: -170px;
     }
   }
-`
+`;
 
 export default function ServicesSection() {
   return (
@@ -54,5 +54,5 @@ export default function ServicesSection() {
         </div>
       </div>
     </ServicesItemsStyles>
-  )
+  );
 }
