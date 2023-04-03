@@ -7,9 +7,9 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root{
-    --dark-bg: #3b3d3b;
-    --gray-1: #c7c9c7;
-    --deep-dark: #4f524f;
+    --dark-bg: #242323;
+    --gray-1: #d9d8d8;
+    --deep-dark: #5e4f49;
     --gray-2: #363636;
     --white : white;
     --black: black;

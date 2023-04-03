@@ -166,15 +166,15 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span className="hero__name">Michelle Jordan</span>
-            <span>Web Design and Development</span>
+            <span>Website Design and Development</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
             <p className="work">
-              I am a freelance web designer and developer. I love to design and
-              make new web experiences.
+              I am a website designer and developer. I love to design and make
+              new web experiences.
             </p>
             <Button btnText="featured works" btnLink="/projects" />
           </div>

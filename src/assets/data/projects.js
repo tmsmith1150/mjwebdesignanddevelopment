@@ -4,6 +4,7 @@ import TwvwImg from '../images/twvw.png';
 import MernCartImg from '../images/mern-cartImg.png';
 import CBOImgImg from '../images/cold-beer-openImg.png';
 import BudgetTrackerImg from '../images/budget-trackerImg.png';
+import ChelciImg from '../images/portrait_chelci.png';
 
 const projects = [
   {
@@ -12,6 +13,13 @@ const projects = [
     desc: 'Clients JJ and Melissa Tindall needed a website that captured their beautiful rental properties, scenic surroundings and the exhilarating ATV/UTV trail systems of West Virginia. This application allows users to view rooms, check availability, book reservations and make payment for their rental. Technologies used in this application include Wordpress, HTML, CSS, Elementor',
     img: TwvwImg,
     deployedLink: 'http://thewestvirginiaway.com/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Chelci Hicks',
+    desc: 'Artist Chelci Hicks',
+    img: ChelciImg,
+    deployedLink: 'https://chelcihicksart.com/',
   },
   {
     id: uuidv4(),

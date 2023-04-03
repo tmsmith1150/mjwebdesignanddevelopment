@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdDesktopMac, MdCode, MdPhonelinkSetup } from 'react-icons/md';
+import { MdDesktopMac, MdCode } from 'react-icons/md';
 import styled from 'styled-components';
 import { DiAws } from 'react-icons/di';
 import SectionTitle from './SectionTitle';
