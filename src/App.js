@@ -14,6 +14,9 @@ export default function App() {
         <NavMenu />
         <ScrollToTop />
         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
           <Route exact path="/about">
             <About />
           </Route>
@@ -22,9 +25,6 @@ export default function App() {
           </Route>
           <Route exact path="/contact">
             <Contact />
-          </Route>
-          <Route exact path="/">
-            <Home />
           </Route>
         </Switch>
       </Router>

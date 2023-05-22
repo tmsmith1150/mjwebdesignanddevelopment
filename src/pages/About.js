@@ -88,7 +88,7 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Michelle Jordan</span>
               </p>
-              <h2 className="about__heading">A freelance web developer</h2>
+              <h2 className="about__heading">Software Developer</h2>
               <div className="about__info">
                 <PText>
                   Thinking outside the box, I am passionate about creating
@@ -96,9 +96,9 @@ export default function About() {
                   strive to understand your vision and help you overcome the
                   challenges you face.
                   <br /> <br />
-                  If your website doesn’t reflect your true goals, mission
+                  If your website doesn't reflect your true goals, mission
                   statement, and strategy, the first impression people will get
-                  from it won’t match your model.
+                  from it won't match your model.
                   <br />
                   <br />I can help you define your image and brand by creating
                   your website using the latest technology and development

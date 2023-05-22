@@ -93,7 +93,7 @@ export default function AboutSection() {
             I am a website designer and developer. I love utilizing my extensive
             background in design and passion for technology to bring a vision to
             life through coding. My skills include React, Javascript/ES6, HTML,
-            CSS/SASS, Node.js, Heroku/Git/AWS Deployment, JSON API’s, Jquery,
+            CSS/SASS, Node.js, Heroku/Git/AWS Deployment, JSON API's, Jquery,
             MySql & MongoDB, Bootstrap/Tailwind/Flexbox, ESLint/Prettier, MVC,
             Wordpress, Figma, Adobe Illustrator, Adobe Photoshop.
           </PText>
