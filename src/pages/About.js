@@ -91,10 +91,9 @@ export default function About() {
               <h2 className="about__heading">Software Developer</h2>
               <div className="about__info">
                 <PText>
-                  Thinking outside the box, I am passionate about creating
-                  dynamic and impactful websites to enhance user experiences. I
-                  strive to understand your vision and help you overcome the
-                  challenges you face.
+                  I am passionate about creating dynamic and impactful websites
+                  to enhance user experiences. I strive to understand your
+                  vision and help you overcome the challenges you face.
                   <br /> <br />
                   If your website doesn't reflect your true goals, mission
                   statement, and strategy, the first impression people will get
